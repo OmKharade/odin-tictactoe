@@ -1,7 +1,9 @@
 # tictactoe
 
+<div style = "display:flex">
 <img src="assets/img1.png" height=400px>
 <img src="assets/img2.png" height=400px>
+</div>
 
 ## Overview
 Everyone builds this at some point in their career. Here is me walking down the path laid by those before me. If I keep walking, I might get where they are, get as cracked as some of the people I read about.
