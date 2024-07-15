@@ -3,9 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#192A32" />
     <title>Odin Tic-Tac-Toe</title>
-</head>
-<body>
-    <script src="script.js"></script> 
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <section class="header">
+        <span class="logo">tic tac toe</span>
+        <h2 class="message-display">
+          <span>X</span>
+          <span>Move</span>
+        </h2>
+        <button class="btn-restart">
+          <img src="./assets/restart.svg" alt="restart" />
+        </button>
+      </section>
+
+      <section class="game-board">
+        <div class="board-field" data-index="0" role="button"></div>
+        <div class="board-field" data-index="1" role="button"></div>
+        <div class="board-field" data-index="2" role="button"></div>
+        <div class="board-field" data-index="3" role="button"></div>
+        <div class="board-field" data-index="4" role="button"></div>
+        <div class="board-field" data-index="5" role="button"></div>
+        <div class="board-field" data-index="6" role="button"></div>
+        <div class="board-field" data-index="7" role="button"></div>
+        <div class="board-field" data-index="8" role="button"></div>
+      </section>
+
+      <section class="summary">
+        <div class="summary-card">
+          <p class="display-name">Player X</p>
+          <strong class="display-score">0</strong>
+        </div>
+        <div class="summary-card">
+          <p class="display-name">TIES</p>
+          <strong class="display-score">0</strong>
+        </div>
+        <div class="summary-card">
+          <p class="display-name">Player O</p>
+          <strong class="display-score">0</strong>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
