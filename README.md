@@ -22,7 +22,7 @@ Click [here](https://omkharade.github.io/odin-tictactoe/) to play
 
 ## More Projects
 
-[This](https://github.com/OmKharade/odin-library) is what I tried next
+[This](https://github.com/OmKharade/pacman) is what I tried next
 
 #### Visit my [GitHub Profile](https://github.com/OmKharade). Feedback is very appreciated !
 
